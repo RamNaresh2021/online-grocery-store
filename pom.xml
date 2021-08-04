@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.grocery.store</groupId>
 	<artifactId>online-grocery-store</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<parent>
@@ -35,6 +36,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>online-grocery-store</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
